@@ -11,7 +11,7 @@ With BrainBuddy you can:
 
 ## 🚀 Live Demo  
 Check out the live version:  
-[https://omegakavya.github.io/BrainBuddy_SIH2024/](https://omegakavya.github.io/BrainBuddy_SIH2024/)  
+[http://brainbuddy.aggarwalkavya.me/](http://brainbuddy.aggarwalkavya.me/)  
 
 ## 🛠 Tech Stack & Project Structure  
 - **Frontend**: Plain HTML, CSS and JavaScript (no frameworks) — each page is self-contained and deployable.  
