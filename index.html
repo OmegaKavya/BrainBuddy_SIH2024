@@ -132,12 +132,40 @@
             font-size: 14px;
             color: #555;
         }
+    
+        /* The logo scales instead of forcing a 350px floor, which was wider
+           than a phone and pushed the whole page sideways. */
+        .brand-mark {
+            width: 100%;
+            max-width: 320px;
+            height: auto;
+            border-radius: 12px;
+        }
+
+        .guest-line { margin-top: 14px; text-align: center; }
+
+        .guest-link {
+            display: inline-block;
+            padding: 10px 18px;
+            border: 1px solid rgba(255, 255, 255, 0.55);
+            border-radius: 999px;
+            color: #fff;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .guest-link:hover { background: rgba(255, 255, 255, 0.18); }
+
+        /* Nothing on this page should be able to scroll it sideways. */
+        html, body { max-width: 100%; overflow-x: hidden; }
+
+        img { max-width: 100%; height: auto; }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="left-section">
-          <center><img src="https://png.pngtree.com/png-vector/20240813/ourmid/pngtree-user-icon-png-image_13468800.png" style="width:350px; height:350px;"></center>
+          <center><img src="IMLogo.jpeg" alt="BrainBuddy" class="brand-mark"></center>
           <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
             <center><b><i> "Studying becomes an enjoyable experience thanks to its innovative use of game-based learning."</center></b></i></p>
         </div>
