@@ -10,8 +10,11 @@ With BrainBuddy you can:
 - Enjoy a clean, self-contained HTML/CSS/JS web experience you can deploy easily  
 
 ## 🚀 Live Demo  
-Check out the live version:  
-[http://brainbuddy.aggarwalkavya.me/](http://brainbuddy.aggarwalkavya.me/)  
+[https://omegakavya.github.io/BrainBuddy_SIH2024/](https://omegakavya.github.io/BrainBuddy_SIH2024/)
+
+The custom domain this previously used, brainbuddy.aggarwalkavya.me, has
+expired. While its CNAME was in place the default GitHub Pages URL redirected
+to the dead host as well, so the site was unreachable by any address.
 
 ## 🛠 Tech Stack & Project Structure  
 - **Frontend**: Plain HTML, CSS and JavaScript (no frameworks) — each page is self-contained and deployable.  
